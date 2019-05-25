@@ -1,4 +1,4 @@
-# hector-slam
+# hector-slam-mapping
 
 git clone https://github.com/EAIBOT/ydlidar.git
 

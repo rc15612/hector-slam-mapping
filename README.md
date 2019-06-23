@@ -1,6 +1,6 @@
 # hector-slam-mapping
-1.download and install the EAIBOT ROS package :
-git clone https://github.com/EAIBOT/ydlidar.git
+1.download and install the EAIBOT ROS package :＜/br＞
+git clone https://github.com/EAIBOT/ydlidar.git＜/br＞
 catkin_make
 
 2.create all_node.launch in the same workspace and then source

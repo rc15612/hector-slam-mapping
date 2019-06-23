@@ -1,5 +1,5 @@
 # hector-slam-mapping
-1.download and install the EAIBOT ROS package
+1.download and install the EAIBOT ROS package :
 git clone https://github.com/EAIBOT/ydlidar.git
 catkin_make
 
@@ -11,7 +11,7 @@ catkin_make
 
 5.move ydlidar to build your map 
 
-6.to save the map you just created. rosrun map_server map_saver -f /tmp/my_map
+6.to save the map you just created : rosrun map_server map_saver -f /tmp/my_map
 
 ![image](https://github.com/yu-yung/hector-slam-mapping/blob/master/map0508.PNG)
 

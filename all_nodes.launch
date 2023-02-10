@@ -2,7 +2,7 @@
 
      <node name="ydlidar_node" pkg="ydlidar" type="ydlidar_node" output="screen" respawn="false" >
 
-      <param name="port" type="string" value="/dev/ydlidar"/>
+      <param name="port" type="string" value="/dev/ttyUSB0"/>
 
       <param name="baudrate" type="int" value="128000"/>
 
@@ -42,6 +42,6 @@
 
      <node pkg="rviz" name="rviz" type="rviz" args="-d $(find ydlidar)/launch/lidar.rviz" />
 
-     <include file="$(find hector_geotiff)/launch/geotiff_mapper.launch" />
+     <include file="$(find hector_geotiff_launch)/launch/geotiff_mapper.launch" />
 
 </launch>
